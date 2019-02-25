@@ -103,6 +103,9 @@ alias ~/.gitconfig
 	git remote add github https://github.com/ju-bw/git-prj.git
 	git remote add github git@github.com:ju-bw/git-prj.git
 
+	git remote add github git@github.com:ju-bw/bash-scripte.git
+	git push -u github master
+
 	# Zum Senden wird das Repository auf den Server gepusht.
 	git push -u origin master
 	# Welcher Branch (master) soll übertragen werden
@@ -282,6 +285,8 @@ alias ~/.gitconfig
 	cd ~/experimente/git-ubuntu/git-prj
 	git clone --bare . /media/jan/virtuell/git-server-repo/git-prj.git
 	git remote add lokal /media/jan/virtuell/git-server-repo/git-prj.git
+	git clone --bare . /media/jan/virtuell/git-server-repo/bash-scripte.git
+	git remote add lokal /media/jan/virtuell/git-server-repo/bash-scripte.git
 	#git push -u lokal master
 	git push # git push lokal master
 	git pull # git pull lokal master
@@ -295,6 +300,8 @@ alias ~/.gitconfig
 	#cd ~/experimente/git-ubuntu/git-prj
 	git clone --no-hardlinks --bare . /media/jan/virtuell/git-server-repo/git-prj-backup.git
 	git remote add backup /media/jan/virtuell/git-server-repo/git-prj-backup.git
+	git clone --no-hardlinks --bare . /media/jan/virtuell/git-server-repo/bash-scripte-backup.git
+	git remote add backup /media/jan/virtuell/git-server-repo/bash-scripte-backup.git
 	
 	# sichern
 	git push --all backup
