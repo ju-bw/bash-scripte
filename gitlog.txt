@@ -1,0 +1,10 @@
+*   8183e93 (HEAD -> master, lokal/master, github/master, backup/master) Merge branch 'work'
+|\  
+| * 898837c (backup/work, work) work: neu
+* | f6f5146 git-befehle
+|/  
+* 3034554 init
+8183e93 [vor 2 Minuten] (HEAD -> master, lokal/master, github/master, backup/master) Merge branch 'work' [Jan Unger]
+898837c [vor 2 Minuten] (backup/work, work) work: neu [Jan Unger]
+f6f5146 [vor 4 Minuten] git-befehle [Jan Unger]
+3034554 [vor 10 Minuten] init [Jan Unger]
