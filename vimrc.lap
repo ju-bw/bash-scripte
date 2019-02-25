@@ -1,0 +1,59 @@
+" vi .vimrc
+
+" Zeilennummer
+set nu     " an
+"set nonu  " aus
+
+" Syntax-Hervorhebung
+syntax on
+" Syntax-Hervorhebung an dunklen Hintergrund anpassen
+"set background=dark
+" Ruecktaste loescht Tab, 2  Leerzeichen 
+set softtabstop=2
+" Sprachenerkennung aktivieren
+filetype plugin indent on
+" Tabs durch Leerzeichen ersetzen lassen
+set expandtab
+" Gross-/Kleinschreibung nicht ignorieren, 
+set smartcase
+
+" Vervollstaendigungsoptionen als Menue anzeigen
+set wildmenu
+
+set textwidth=80
+" Cursorposition mit der Maus festlegen
+"set mouse=a
+" <Cursor links>  am Zeilenanfang bewegt den Cursor an das Ende der vorigen Zeile,
+" <Cursor rechts> am Zeilenende bewegt den Cursor an den Beginn der naechsten Zeile,
+set whichwrap=b,s,<,>,[,]
+" Backups beim Speichern erzeugen
+set backup
+set encoding=utf-8
+
+" Bei Fehleingaben nicht piepsen
+set noerrorbells
+" Anzahl geanderter Zeilen in Statuszeile immer anzeigen ¨
+set report=0 
+" Edit-Modus anzeigen
+set showmode 
+" Suche uber Dateianfang/ende hinaus fortsetzen 
+set wrapscan 
+
+" Text-Erstellung
+ 
+" Automatischer Zeilenumbruch 10 Zeichen vor Zeilenende
+"set wrapmargin=10 
+
+" Einrueckung aus vorheriger Zeile (Strg-D = zuruecknehmen, Strg-T = erneut einruecken)
+"set autoindent
+
+set showmatch            " Sprung zur korrespondierenden offnenden Klammer
+set shiftwidth=2         " Einrueckungsbreite 2 Zeichen 
+set tabstop=2            " Tabulatorbreite 2 Zeichen
+
+set nocompatible         " Vi-kompatibler Modus (immer ausschalten!)
+set hlsearch             " Suchergebnisse markieren (highlight)
+set incsearch            " Sofort wahrend Eingabe suchen ( incremental)
+set ruler                " Aktuelle Cursor-Zeile/Spalte in Statuszeile anzeigen (Lineal)
+set showcmd              " Unvollstandiges Kommando in Statuszeile anzeigen ( command)
+

@@ -1,0 +1,23 @@
+# File: ~/.ssh/config
+Host *
+        #User jan
+Host kali
+        Hostname 192.168.178.59
+        User jan
+        #Port 22
+        #IndentyFile ~/.ssh/xyz.key
+Host server1
+        Hostname 192.168.178.78
+        User jan
+        #Port 22
+        #IndentyFile ~/.ssh/xyz.key
+Host rootserver
+        Hostname 193.31.25.210
+        User jan
+        #Port 22
+        #IndentyFile ~/.ssh/xyz.key
+Host raspi
+        Hostname 192.168.178.60
+        User pi
+        #Port 22
+        #IndentyFile ~/.ssh/xyz.key
